@@ -1,0 +1,19 @@
+# Problem statement : Accept two numbers from user and return its addition.
+
+def Addition(no1,no2):
+    sum=010
+    sum=no1+no2
+    return sum
+    
+def main():
+    print("Enter the first number")
+    no1=int(input())
+    
+    print("Enter the second number")
+    no2=int(input())
+    
+    iret=Addition(no1,no2)
+    print("Addition of {} and {} is :{}".format(no1,no2,iret))
+
+if __name__=="__main__":
+    main()
